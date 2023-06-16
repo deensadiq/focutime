@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import { TextInput } from 'react-native-paper';
-import { colors } from '../utils/colors';
 import { RoundedButton } from '../Components/RoundedButton';
 
 export const Focus = ({ addFocus }) => {
